@@ -184,7 +184,6 @@ const ContactUs = () => {
                 <IonIcon icon={location} aria-hidden="true"></IonIcon>
                 <address className="contact-link address">
                 Nathiya,"Gandhi Road,Hasthampatti,salem,Tamilnadu,636007"
-              },.
                 </address>
               </li>
               <li className="footer-item">
