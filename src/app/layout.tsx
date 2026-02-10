@@ -5,6 +5,7 @@ import Script from "next/script";
 import NextTopLoader from 'nextjs-toploader';
 import Navbar from "./Header/Navbar";
 import Footer from "./Footer/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -70,6 +71,7 @@ export default function RootLayout({
       <Navbar/>
         {children}
         <Footer/>
+        <Analytics />
       </body>
     </html>
   );
